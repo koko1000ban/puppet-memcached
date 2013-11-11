@@ -15,7 +15,7 @@ class memcached::params {
       $executable = "${boxen::config::homebrewdir}/bin/memcached"
       $logdir     = "${boxen::config::logdir}/memcached"
       $host       = '127.0.0.1'
-      $port       = 21211
+      $port       = 11211
       $user       = $::boxen_user
 
       $enable     = true
